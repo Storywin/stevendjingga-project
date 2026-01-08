@@ -377,17 +377,17 @@ function App() {
 
                 <div className="mb-8 relative z-10">
                     <label className="block text-xs text-gray-400 mb-2 uppercase tracking-wider">Masukkan kode promo</label>
-                    <div className="flex gap-3">
+                    <div className="flex flex-col sm:flex-row gap-3">
                         <input 
                            type="text" 
                            value={promoCode}
                            onChange={(e) => setPromoCode(e.target.value)}
                            placeholder="KODE PROMO" 
-                           className="bg-black/50 border border-gray-700 rounded-xl px-5 py-3 flex-1 text-white focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-all placeholder:text-gray-600"
+                           className="bg-black/50 border border-gray-700 rounded-xl px-5 py-3 w-full sm:flex-1 text-white focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-all placeholder:text-gray-600"
                         />
                         <button 
                            onClick={handleApplyPromo}
-                           className="bg-white text-black hover:bg-gray-200 font-bold px-8 py-3 rounded-xl transition-colors shadow-lg"
+                           className="bg-white text-black hover:bg-gray-200 font-bold px-8 py-3 rounded-xl transition-colors shadow-lg w-full sm:w-auto"
                         >
                             APPLY
                         </button>
