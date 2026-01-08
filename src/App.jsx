@@ -83,7 +83,7 @@ function App() {
         <header className="max-w-5xl mx-auto text-center px-4 pt-32 pb-24 relative">
           <FadeIn>
             <div className="inline-block mb-4 px-4 py-1 rounded-full border border-yellow-500/30 bg-yellow-500/10 text-yellow-500 text-xs font-bold tracking-widest uppercase">
-              Hustlers University 4.0
+              BISNIS HACKS BY STEVEN DJINGGA
             </div>
             <h1 className="text-lg md:text-2xl lg:text-4xl font-bold mb-8 uppercase tracking-tighter leading-tight bg-clip-text text-transparent bg-gradient-to-b from-white via-white to-gray-500">
               BISNIS HACKS UNTUK DAPATKAN HINGGA 1M <br/>
