@@ -324,7 +324,7 @@ function App() {
                     <div className="aspect-[3/4] rounded-2xl border border-white/10 flex items-center justify-center bg-gray-900/50 relative overflow-hidden group shadow-2xl">
                        <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent z-10"></div>
                        {/* Placeholder image for Steven */}
-                       <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=2787&auto=format&fit=crop')] bg-cover bg-center grayscale group-hover:grayscale-0 transition-all duration-700"></div>
+                       <div className="absolute inset-0 bg-[url('/Steven.webp')] bg-cover bg-center grayscale group-hover:grayscale-0 transition-all duration-700"></div>
                        
                        <div className="absolute bottom-6 left-6 z-20">
                           <div className="text-white font-bold text-xl">STEVEN DJINGGA</div>
