@@ -370,7 +370,7 @@ function App() {
                             <div className="mt-1 flex-shrink-0 w-6 h-6 rounded-full bg-green-500/20 flex items-center justify-center">
                                 <CheckCircle2 className="w-4 h-4 text-green-400" />
                             </div>
-                            <p className="text-sm md:text-base font-medium text-gray-300">{item}</p>
+                            <p className="text-base font-medium text-gray-300">{item}</p>
                        </div>
                    ))}
                 </div>
