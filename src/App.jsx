@@ -320,7 +320,7 @@ function App() {
                        <p className="text-white font-medium border-l-4 border-blue-500 pl-4">Membangun bisnis di era sekarang sudah terlalu kompetitif. Produk mirip. Strategi mirip. Semua diajarkan hal yang sama. <br/>Kamu butuh hacks untuk bisa menjadi TOP 1%</p>
                    </div>
                    <div className="mt-10">
-                        <GlowButton className="py-3 px-10 rounded-full w-full md:w-auto">
+                        <GlowButton onClick={() => window.open('https://wa.link/vjw70s', '_blank')} className="py-3 px-10 rounded-full w-full md:w-auto">
                            GABUNG SEKARANG
                        </GlowButton>
                    </div>
@@ -428,7 +428,7 @@ function App() {
                     </div>
                 </div>
 
-                <GlowButton className="w-full py-5 rounded-xl text-xl relative z-10">
+                <GlowButton onClick={() => window.open('https://wa.link/vjw70s', '_blank')} className="w-full py-5 rounded-xl text-xl relative z-10">
                     GABUNG SEKARANG
                 </GlowButton>
              </div>
