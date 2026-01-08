@@ -480,7 +480,7 @@ function App() {
         {/* Footer */}
         <footer className="py-12 text-center text-gray-600 text-sm border-t border-white/10 bg-black relative z-10">
              <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-4">
-                <p>© 2024 Steven Djingga. All rights reserved.</p>
+                <p>© 2026 Steven Djingga. All rights reserved.</p>
                 <div className="flex gap-6">
                     <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
                     <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
