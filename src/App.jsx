@@ -387,6 +387,12 @@ function App() {
                             APPLY
                         </button>
                     </div>
+                    {promoError && (
+                      <p className="text-red-500 text-sm mt-2">{promoError}</p>
+                    )}
+                    {discountApplied && (
+                      <p className="text-green-500 text-sm mt-2">Kode promo berhasil digunakan! Diskon 50% diterapkan.</p>
+                    )}
                 </div>
 
                 <div className="border-t border-white/10 pt-8 mb-8 relative z-10">
