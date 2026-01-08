@@ -70,8 +70,8 @@ function App() {
         {/* Navbar */}
         <nav className="fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-md border-b border-white/5">
            <div className="flex justify-between items-center px-6 py-4 max-w-6xl mx-auto">
-             <div className="text-xl font-bold tracking-tighter bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">
-               
+             <div className="flex items-center">
+               <img src="/logo.png" alt="Steven Djingga Logo" className="h-12 w-auto object-contain" />
              </div>
              <button className="bg-white/10 hover:bg-white/20 border border-white/10 text-white px-5 py-2 rounded-full text-sm font-semibold transition-all hover:shadow-[0_0_15px_rgba(255,255,255,0.1)]">
                 Gabung
