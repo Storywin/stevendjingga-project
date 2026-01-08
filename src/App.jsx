@@ -401,8 +401,8 @@ function App() {
                 </div>
 
                 <div className="border-t border-white/10 pt-8 mb-8 relative z-10">
-                    <div className="flex justify-between items-end">
-                        <span className="text-xl font-bold text-gray-400">Total Pembayaran</span>
+                    <div className="flex justify-between items-center">
+                        <span className="text-sm md:text-xl font-bold text-gray-400">Total Pembayaran</span>
                         <div className="text-right">
                             <AnimatePresence>
                                {discountApplied && (
@@ -410,7 +410,7 @@ function App() {
                                       initial={{ opacity: 0, y: -10 }}
                                       animate={{ opacity: 1, y: 0 }}
                                       exit={{ opacity: 0 }}
-                                      className="text-gray-500 line-through text-sm"
+                                      className="text-gray-500 line-through text-xs md:text-sm"
                                    >
                                       Rp 9.000.000
                                    </motion.div>
@@ -420,7 +420,7 @@ function App() {
                                key={discountApplied ? 'discounted' : 'normal'}
                                initial={{ scale: 0.9 }}
                                animate={{ scale: 1 }}
-                               className="text-3xl md:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-600"
+                               className="text-xl md:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-600"
                             >
                                 {discountApplied ? 'Rp 4.500.000' : 'Rp 9.000.000'}
                             </motion.div>
