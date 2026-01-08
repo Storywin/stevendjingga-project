@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Lightbulb, Megaphone, Settings, Users, Globe, Handshake, CheckCircle2, ChevronDown, ChevronUp, Play, Star } from 'lucide-react';
+import { Lightbulb, Megaphone, Settings, Users, Globe, Handshake, CheckCircle2, ChevronDown, ChevronUp, Star } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const FadeIn = ({ children, delay = 0, className = "" }) => (
@@ -93,17 +93,18 @@ function App() {
 
           {/* Video Placeholder */}
           <FadeIn delay={0.2}>
-            <div className="relative aspect-video bg-gray-900/50 border border-white/10 rounded-2xl mx-auto mb-12 flex items-center justify-center group cursor-pointer overflow-hidden shadow-2xl shadow-blue-900/20 max-w-4xl">
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent z-10"></div>
-              {/* Animated Glow Border */}
-              <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-gradient-to-r from-transparent via-white/10 to-transparent skew-x-12 translate-x-[-100%] group-hover:animate-shine"></div>
+            <div className="relative aspect-video bg-gray-900/50 border border-white/10 rounded-2xl mx-auto mb-12 overflow-hidden shadow-2xl shadow-blue-900/20 max-w-4xl group">
+              {/* Glow Effect behind video */}
+              <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-2xl blur opacity-20 group-hover:opacity-40 transition duration-1000 group-hover:duration-200"></div>
               
-              <div className="relative z-20 flex flex-col items-center group-hover:scale-105 transition-transform duration-500">
-                 <div className="w-24 h-24 rounded-full bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center mb-4 group-hover:bg-blue-600 group-hover:border-blue-500 transition-colors shadow-lg">
-                    <Play className="w-10 h-10 text-white fill-white ml-1" />
-                 </div>
-                 <span className="text-xl font-bold tracking-widest text-white/90">TONTON VIDEO</span>
-              </div>
+              <iframe 
+                className="relative w-full h-full rounded-2xl z-10"
+                src="https://www.youtube.com/embed/VNoVoxYscNo?si=sV2fkEf3uOkb0-IA" 
+                title="Steven Djingga - Business Hacks"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerPolicy="strict-origin-when-cross-origin" 
+                allowFullScreen
+              ></iframe>
             </div>
           </FadeIn>
 
