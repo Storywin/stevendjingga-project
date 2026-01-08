@@ -219,8 +219,9 @@ function App() {
             
             <div className="flex-1 w-full pl-8 md:pl-0 md:pl-12">
                <FadeIn className="aspect-[4/3] rounded-2xl border border-white/10 bg-gray-900/50 flex items-center justify-center overflow-hidden relative group">
-                  <div className="absolute inset-0 bg-gradient-to-bl from-indigo-900/20 to-transparent opacity-50 z-10"></div>
-                  <div className="absolute inset-0 bg-[url('/Foto%202.png')] bg-cover bg-center transition-transform duration-700 group-hover:scale-105"></div>
+                  <div className="absolute inset-0 bg-gradient-to-bl from-indigo-900/20 to-transparent opacity-50"></div>
+                  <span className="text-2xl font-bold text-white/20 group-hover:text-white/40 transition-colors">FOTO 2</span>
+                  <div className="absolute inset-0 bg-[url('/2.png')] bg-cover bg-center opacity-40 mix-blend-overlay hover:opacity-60 transition-opacity duration-700"></div>
                </FadeIn>
             </div>
             <div className="flex-1 text-left pl-8 md:pl-0 md:pr-12 border-l border-white/10 md:border-none">
