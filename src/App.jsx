@@ -73,7 +73,7 @@ function App() {
              <div className="flex items-center">
                <img src="/logo.png" alt="Steven Djingga Logo" className="h-12 w-auto object-contain" />
              </div>
-             <button className="bg-white/10 hover:bg-white/20 border border-white/10 text-white px-5 py-2 rounded-full text-sm font-semibold transition-all hover:shadow-[0_0_15px_rgba(255,255,255,0.1)]">
+             <button onClick={() => window.open('https://wa.link/vjw70s', '_blank')} className="bg-white/10 hover:bg-white/20 border border-white/10 text-white px-5 py-2 rounded-full text-sm font-semibold transition-all hover:shadow-[0_0_15px_rgba(255,255,255,0.1)]">
                 Gabung
              </button>
            </div>
@@ -109,7 +109,7 @@ function App() {
           </FadeIn>
 
           <FadeIn delay={0.4}>
-            <GlowButton className="text-lg md:text-xl py-5 px-16 rounded-full mb-6">
+            <GlowButton onClick={() => window.open('https://wa.link/vjw70s', '_blank')} className="text-lg md:text-xl py-5 px-16 rounded-full mb-6">
               GABUNG SEKARANG
             </GlowButton>
             <div className="flex items-center justify-center gap-2 text-gray-400 font-medium text-sm">
@@ -276,7 +276,7 @@ function App() {
           </div>
 
           <div className="text-center mt-20">
-             <GlowButton className="text-lg py-4 px-12 rounded-full">
+             <GlowButton onClick={() => window.open('https://wa.link/vjw70s', '_blank')} className="text-lg py-4 px-12 rounded-full">
                 GABUNG SEKARANG
             </GlowButton>
           </div>
@@ -462,7 +462,7 @@ function App() {
              </div>
              
              <div className="text-center mt-16">
-                <GlowButton className="py-3 px-10 rounded-full">
+                <GlowButton onClick={() => window.open('https://wa.link/vjw70s', '_blank')} className="py-3 px-10 rounded-full">
                    GABUNG SEKARANG
                </GlowButton>
              </div>
