@@ -27,11 +27,16 @@ const GlowButton = ({ children, className = "", ...props }) => (
 function App() {
   const [promoCode, setPromoCode] = useState('');
   const [discountApplied, setDiscountApplied] = useState(false);
+  const [promoError, setPromoError] = useState('');
   const [openFaq, setOpenFaq] = useState(null);
 
   const handleApplyPromo = () => {
-    if (promoCode.trim().length > 0) {
+    if (promoCode.trim().toUpperCase() === 'STEVEN50') {
       setDiscountApplied(true);
+      setPromoError('');
+    } else {
+      setDiscountApplied(false);
+      setPromoError('Kode promo tidak valid');
     }
   };
 
