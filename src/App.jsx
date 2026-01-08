@@ -135,12 +135,12 @@ function App() {
           
           <div className="grid grid-cols-2 md:grid-cols-3 gap-6 md:gap-10">
             {[
-              { icon: <Lightbulb />, label: "Ide Bisnis", desc: "Temukan ide profit tinggi" },
-              { icon: <Megaphone />, label: "Marketing", desc: "Dominasi pasar digital" },
-              { icon: <Settings />, label: "Operasional", desc: "Sistem autopilot" },
-              { icon: <Users />, label: "Team", desc: "Bangun super team" },
-              { icon: <Globe />, label: "Networking", desc: "Koneksi bernilai tinggi" },
-              { icon: <Handshake />, label: "Negosiasi", desc: "Closing rate 90%" },
+              { icon: <Lightbulb />, label: "Ide Bisnis" },
+              { icon: <Megaphone />, label: "Marketing" },
+              { icon: <Settings />, label: "Operasional" },
+              { icon: <Users />, label: "Team" },
+              { icon: <Globe />, label: "Networking" },
+              { icon: <Handshake />, label: "Negosiasi" },
             ].map((item, idx) => (
               <FadeIn key={idx} delay={idx * 0.1} className="h-full">
                 <div className="group h-full p-6 rounded-2xl bg-white/5 border border-white/5 hover:bg-white/10 hover:border-blue-500/30 transition-all duration-300 flex flex-col items-center text-center hover:-translate-y-1 relative overflow-hidden">
@@ -150,7 +150,6 @@ function App() {
                     {React.cloneElement(item.icon, { className: "w-8 h-8 text-gray-400 group-hover:text-blue-400 transition-colors" })}
                   </div>
                   <h3 className="text-lg font-bold text-white mb-1 relative z-10">{item.label}</h3>
-                  <p className="text-xs text-gray-500 relative z-10">{item.desc}</p>
                 </div>
               </FadeIn>
             ))}
