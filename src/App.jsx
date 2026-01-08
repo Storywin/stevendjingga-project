@@ -353,8 +353,8 @@ function App() {
                     <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">Daftar & Join Sekarang</h2>
                     <div className="flex flex-col items-center gap-2">
                        <span className="text-red-500 line-through text-xl font-medium">Rp 27.500.000</span>
-                       <span className="text-5xl md:text-6xl font-bold text-white drop-shadow-[0_0_15px_rgba(255,255,255,0.3)]">Rp 9.000.000</span>
-                    </div>
+                       <span className="text-3xl sm:text-4xl md:text-6xl font-bold text-white drop-shadow-[0_0_15px_rgba(255,255,255,0.3)] whitespace-nowrap">Rp 9.000.000</span>
+                   </div>
                 </div>
 
                 <div className="space-y-5 mb-10 relative z-10 bg-white/5 p-6 rounded-2xl border border-white/5">
