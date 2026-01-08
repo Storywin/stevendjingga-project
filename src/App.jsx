@@ -85,8 +85,8 @@ function App() {
             <div className="inline-block mb-4 px-4 py-1 rounded-full border border-yellow-500/30 bg-yellow-500/10 text-yellow-500 text-xs font-bold tracking-widest uppercase">
               Hustlers University 4.0
             </div>
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-8 uppercase tracking-tight leading-tight bg-clip-text text-transparent bg-gradient-to-b from-white via-white to-gray-500">
-              BISNIS HACKS UNTUK <br/> DAPATKAN HINGGA 1M <br/>
+            <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-8 uppercase tracking-tight leading-tight bg-clip-text text-transparent bg-gradient-to-b from-white via-white to-gray-500">
+              BISNIS HACKS UNTUK DAPATKAN HINGGA 1M <br/>
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">DALAM 7 HARI TANPA MODAL</span>
             </h1>
           </FadeIn>
