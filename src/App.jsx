@@ -317,9 +317,9 @@ function App() {
                 <div className="flex-1 order-2 md:order-1">
                    <h2 className="text-3xl md:text-4xl font-bold mb-8 uppercase hidden md:block text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400">TENTANG STEVEN DJINGGA</h2>
                    <div className="space-y-6 text-gray-400 leading-relaxed text-lg">
-                       <p>Steven Djingga adalah CEO & Founder dari berbagai industri, mulai dari startup, ritel, restoran, hingga platform AI.</p>
-                       <p>Melalui bisnis yang ia bangun tanpa modal seperti Cateraja, Bakso, Kopi Kenangan, Steven membuktikan bahwa kesuksesan bisnis bukan karena modal maupun rahasia kurus, melainkan membaca celah yang 99% orang tidak paham.</p>
-                       <p className="text-white font-medium border-l-4 border-blue-500 pl-4">Membangun bisnis di era sekarang sudah terlalu kompetitif. Produk mirip. Strategi mirip. Semua diajarkan hal yang sama. Kamu butuh hacks untuk bisa menjadi TOP 1%.</p>
+                       <p>Steven Djingga adalah CEO & Founder dari berbagai industri, mulai dari startup, F&B, restoran, hingga platform AI.</p>
+                       <p>Melalui bisnis yang ia bangun tanpa modal seperti Cateringaja, Bai Wei, hingga KontenAja, Steven membuktikan bahwa kesuksesan bisnis bukan karena modal maupun bekerja keras, melainkan membaca celah yang 99% orang tidak paham.</p>
+                       <p className="text-white font-medium border-l-4 border-blue-500 pl-4">Membangun bisnis di era sekarang sudah terlalu kompetitif. Produk mirip. Strategi mirip. Semua diajarkan hal yang sama. <br/>Kamu butuh hacks untuk bisa menjadi TOP 1%</p>
                    </div>
                    <div className="mt-10">
                         <GlowButton className="py-3 px-10 rounded-full w-full md:w-auto">
