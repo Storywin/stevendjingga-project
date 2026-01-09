@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Lightbulb, Megaphone, Settings, Users, Globe, Handshake, CheckCircle2, ChevronDown, ChevronUp, Star } from 'lucide-react';
+import { Lightbulb, Megaphone, Settings, Users, Globe, Handshake, CheckCircle2, ChevronDown } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const FadeIn = ({ children, delay = 0, className = "" }) => (
@@ -90,8 +90,9 @@ function App() {
             <div className="inline-block mb-4 px-4 py-1 rounded-full border border-yellow-500/30 bg-yellow-500/10 text-yellow-500 text-xs font-bold tracking-widest uppercase">
               BISNIS HACKS BY STEVEN DJINGGA
             </div>
-            <h1 className="text-lg md:text-2xl lg:text-4xl font-bold mb-8 uppercase tracking-tighter leading-tight bg-clip-text text-transparent bg-gradient-to-b from-white via-white to-gray-500">
-              BISNIS HACKS UNTUK DAPATKAN HINGGA 1M <br/>
+            <h1 className="text-[clamp(12px,4.2vw,18px)] md:text-2xl lg:text-4xl font-bold mb-8 uppercase tracking-tighter leading-tight bg-clip-text text-transparent bg-gradient-to-b from-white via-white to-gray-500">
+              <span className="inline-block whitespace-nowrap">BISNIS HACKS UNTUK DAPATKAN HINGGA 1M</span>
+              <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">DALAM 7 HARI TANPA MODAL</span>
             </h1>
           </FadeIn>
@@ -167,12 +168,12 @@ function App() {
             <p className="text-sm font-bold tracking-[0.3em] text-blue-500 mb-4 uppercase">MEMPERKENALKAN</p>
             <h2 className="text-3xl md:text-5xl font-bold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-white via-white to-gray-500">CARA BERPIKIR YANG BERBEDA</h2>
             <div className="p-8 rounded-3xl bg-white/5 border border-white/5 backdrop-blur-sm relative">
-               <div className="absolute -top-4 -left-4 text-6xl text-blue-900 opacity-50">"</div>
+               <div className="absolute -top-4 -left-4 text-6xl text-blue-900 opacity-50">&quot;</div>
                <p className="text-gray-300 leading-relaxed text-lg md:text-xl font-light">
                 Bisnis Hacks dari Steven Djingga adalah platform edukasi eksklusif yang mengajarkan cara tercepat sukses membangun bisnis dengan membaca celah yang tidak pernah diajarkan di sekolah, kampus, atau seminar motivasi. <br/><br/>
                 <span className="text-white font-semibold">Ini bukan tentang kerja lebih keras atau sabar menunggu kesuksesan. Ini tentang melihat apa yang orang lain lewatkan.</span>
               </p>
-              <div className="absolute -bottom-4 -right-4 text-6xl text-blue-900 opacity-50 rotate-180">"</div>
+              <div className="absolute -bottom-4 -right-4 text-6xl text-blue-900 opacity-50 rotate-180">&quot;</div>
             </div>
           </FadeIn>
         </section>
@@ -226,7 +227,7 @@ function App() {
             </div>
             <div className="flex-1 text-left pl-8 md:pl-0 md:pr-12 border-l border-white/10 md:border-none">
               <FadeIn delay={0.2}>
-                <h3 className="text-2xl md:text-3xl font-bold mb-6 uppercase text-indigo-400">AKSES KOMUNITAS KHUSUS</h3>
+                <h3 className="text-2xl md:text-3xl font-bold mb-6 uppercase text-indigo-400 whitespace-nowrap" style={{ fontSize: 'clamp(1rem, 3.5vw, 1.875rem)' }}>AKSES KOMUNITAS KHUSUS</h3>
                 <ul className="space-y-6">
                   {[
                     { title: "Tempat berkumpulnya orang yang sadar", desc: "Hidup ini bukan soal siapa yang paling kerja keras, tapi siapa yang paham membaca celah" },
@@ -259,7 +260,7 @@ function App() {
             </div>
             <div className="flex-1 text-left pl-8 md:pl-12 border-l border-white/10 md:border-none">
               <FadeIn delay={0.2}>
-                <h3 className="text-2xl md:text-3xl font-bold mb-6 uppercase text-purple-400">TERHUBUNG DENGAN MENTOR</h3>
+                <h3 className="text-2xl md:text-3xl font-bold mb-6 uppercase text-purple-400 whitespace-nowrap" style={{ fontSize: 'clamp(1rem, 3.5vw, 1.875rem)' }}>TERHUBUNG DENGAN MENTOR</h3>
                 <ul className="space-y-6">
                   {[
                     { title: "Panduan hingga sukses", desc: "Kamu akan dipandu mindset & praktek hingga sukses berbasis" },
@@ -310,7 +311,7 @@ function App() {
         {/* About Steven */}
         <section className="max-w-6xl mx-auto px-4 py-20 border-t border-white/5">
           <FadeIn>
-             <h2 className="text-3xl md:text-4xl font-bold mb-12 uppercase md:hidden text-center text-white">TENTANG STEVEN DJINGGA</h2>
+             <h2 className="text-3xl md:text-4xl font-bold mb-12 uppercase md:hidden text-center text-white">TENTANG <br/> STEVEN DJINGGA</h2>
              <div className="flex flex-col md:flex-row gap-12 items-center">
                 <div className="flex-1 order-2 md:order-1">
                    <h2 className="text-3xl md:text-4xl font-bold mb-8 uppercase hidden md:block text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400">TENTANG STEVEN DJINGGA</h2>
